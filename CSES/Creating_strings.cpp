@@ -42,9 +42,9 @@ void permute(string str, ll l, ll r){
 int main(){
     string str;
     cin >> str;
-    sort(str.begin(), str.end());
     permute(str, 0, str.length() - 1);
     cout << counter << endl;
+    sort(vec.begin(),vec.end());
     for(int i = 0; i < counter; i++){
         cout << vec[i] << endl;
     }
